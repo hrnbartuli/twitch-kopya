@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Twitch</title>
+        <meta charset="UTF-8">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+      <div class="container">
+        <div class="bar">
+          <div class="nav">
+            <div class="navbar-start">
+              <div class="logo">
+                <img src="twitch.png" />
+              </div>
+              <div class="item" id="selected">Takip Edilen</div>
+              <div class="item">Gözat</div>
+              <div class="item">︙</div>
+            </div>
+            <!--navbar center-->
+            <div class="navbar-center">
+              <div class="search-bar">
+                  <input type="search" name="search" placeholder="Search">
+                  <button><svg class="icon" version="1.1" viewBox="0 0 20 20" x="0px" y="0px"
+                          data-a-selector="tw-core-button-icon" class="ScIconSVG-sc-1q25cff-1 dSicFr">
+                          <g>
+                              <path fill-rule="evenodd"
+                                  d="M13.192 14.606a7 7 0 111.414-1.414l3.101 3.1-1.414 1.415-3.1-3.1zM14 9A5 5 0 114 9a5 5 0 0110 0z"
+                                  clip-rule="evenodd"></path>
+                          </g>
+                      </svg></button>
+              </div>
+          </div>
+          <!--navbar right-->
+            <div class="navbar-end">
+              <svg class="icon" viewBox="0 0 20 20"
+                        focusable="false" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M13.798 10.456 10 6.657l-3.798 3.799L4 8.805V13h12V8.805l-2.202 1.65zM18 5v8a2 2 0 0 1-2 2H4a2.002 2.002 0 0 1-2-2V5l4 3 4-4 4 4 4-3z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+              <div class="navbar-item"><button class="primary-btn login">Oturum Aç</button></div>
+              <div class="navbar-item"><button class="primary-btn signup">Kayıt Ol</button></div>
+              <div class="navbar-item"><button class="secondary-btn"><svg class="icon" viewBox="0 0 20 20"
+                          focusable="false" aria-hidden="true">
+                          <path fill-rule="evenodd"
+                              d="M5 7a5 5 0 1 1 6.192 4.857A2 2 0 0 0 13 13h1a3 3 0 0 1 3 3v2h-2v-2a1 1 0 0 0-1-1h-1a3.99 3.99 0 0 1-3-1.354A3.99 3.99 0 0 1 7 15H6a1 1 0 0 0-1 1v2H3v-2a3 3 0 0 1 3-3h1a2 2 0 0 0 1.808-1.143A5.002 5.002 0 0 1 5 7zm5 3a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                              clip-rule="evenodd"></path>
+                      </svg></button></div>
+            </div>
+          </div>
+        </div>
+        <div class="main">
+          <div class="streamer-bar">
+            <div class="streamer-bar-title">
+              <p class="desktop-title">TAKİP EDİLEN KANALLAR</p>
+              <p class="mobile-title">❤</p>
+            </div>
+            <div class="followed-channels">
+              <div class="followed-channel">
+                <div class="profile-image">
+                  <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/c01696f8-a83f-4a0f-9793-07160928145a-profile_image-70x70.png" alt="CombatRy" />
+                </div>
+                <div class="profile-info">
+                  <p class="profile-username">CombatRy</p>
+                  <p class="profile-game-title">VALORANT</p>
+                </div>
+                <div class="profile-viewers">
+                  <div class="live-icon"></div>
+                  <div class="viewer-count">1,6B</div>
+                </div>
+              </div>
+              <div class="followed-channel">
+                <div class="profile-image">
+                  <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/1eda049c091b0f04-profile_image-70x70.jpeg" alt="Videoyun"/>
+                </div>
+                <div class="profile-info">
+                  <p class="profile-username">Videoyun</p>
+                  <p class="profile-game-title">Escape From Tarkov</p>
+                </div>
+                <div class="profile-viewers">
+                  <div class="live-icon"></div>
+                  <div class="viewer-count">1,1B</div>
+                </div>
+              </div>
+              <div class="followed-channel">
+                <div class="profile-image">
+                  <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6c5ba4a1-5c61-4ff6-a7f4-ac791c19aef2-profile_image-70x70.png" alt="TFBlade" />
+                </div>
+                <div class="profile-info">
+                  <p class="profile-username">TFBlade</p>
+                  <p class="profile-game-title">League of Legends</p>
+                </div>
+                <div class="profile-viewers">
+                  <div class="live-icon"></div>
+                  <div class="viewer-count">300</div>
+                </div>
+              </div>
+              <div class="followed-channel">
+                <div class="profile-image">
+                  <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/1975b18f-fa7d-443f-b191-fba08f92f3a2-profile_image-70x70.jpeg" alt="ESLCS" />
+                </div>
+                <div class="profile-info">
+                  <p class="profile-username">ESLCS</p>
+                  <p class="profile-game-title">Counter-Strike: Global Offensive</p>
+                </div>
+                <div class="profile-viewers">
+                  <div class="live-icon"></div>
+                  <div class="viewer-count">1.8B</div>
+                </div>
+              </div>
+              <div class="followed-channel">
+                <div class="profile-image">
+                  <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/32cb16e8-4403-4aef-a78a-eee9857699c3-profile_image-70x70.png" alt="Dantes" />
+                </div>
+                <div class="profile-info">
+                  <p class="profile-username">Dantes</p>
+                  <p class="profile-game-title">League of Legends</p>
+                </div>
+                <div class="profile-viewers">
+                  <div class="live-icon"></div>
+                  <div class="viewer-count">9,4B</div>
+                </div>
+              </div>
+              <div class="followed-channel">
+                <div class="profile-image">
+                  <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/af657335-d9b6-42c4-b486-795d64f17660-profile_image-70x70.png" alt="cptN" />
+                </div>
+                <div class="profile-info">
+                  <p class="profile-username">cptN</p>
+                  <p class="profile-game-title">VALORANT</p>
+                </div>
+                <div class="profile-viewers">
+                  <div class="live-icon"></div>
+                  <div class="viewer-count">122</div>
+                </div>
+              </div>
+              <div class="followed-channel">
+                <div class="profile-image" style="filter: grayscale(100%) contrast(85%);">
+                  <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/8919c1c6-d4f2-4e31-8238-c56270d9c13e-profile_image-70x70.png" alt="Levo" />
+                </div>
+                <div class="profile-info">
+                  <p class="profile-username">Levo</p>
+                  <p class="profile-game-title">Teamfight Tactics</p>
+                </div>
+                <div class="profile-viewers">
+                <div class="live-icon"></div>
+                <div class="viewer-count">9.3B</div>
+                  <!-- <div class="viewer-count">Online</div> -->
+                </div>
+              </div>
+            </div>
+            <br />
+            <small>Daha Fazla Göster</small>
+            <br />
+            <div class="recommended-channels">
+              <div class="streamer-bar-title">
+                <p class="desktop-title">ÖNERİLEN KANALLAR</p>
+                <p class="mobile-title"><i class="fa fa-film"></i></p>
+              </div>
+              <div class="followed-channels">
+                <div class="followed-channel">
+                  <div class="profile-image">
+                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/92b14cd0-c1a3-4109-9c53-1de5b5fc222e-profile_image-70x70.png" alt="Ging" />
+                  </div>
+                  <div class="profile-info">
+                    <p class="profile-username">Ging</p>
+                    <p class="profile-game-title">Teamfight Tactics</p>
+                  </div>
+                  <div class="profile-viewers">
+                    <div class="live-icon"></div>
+                    <div class="viewer-count">1.1K</div>
+                  </div>
+                </div>
+                <div class="followed-channel">
+                  <div class="profile-image">
+                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/fd13408a-ae9b-4437-ab62-87ff5b8eae09-profile_image-70x70.png" alt="rootthegamer" />
+                  </div>
+                  <div class="profile-info">
+                    <p class="profile-username">rootthegamer</p>
+                    <p class="profile-game-title">Counter-Strike: Global Offensive</p>
+                  </div>
+                  <div class="profile-viewers">
+                    <div class="live-icon"></div>
+                    <div class="viewer-count">165</div>
+                  </div>
+                </div>
+                <div class="followed-channel">
+                  <div class="profile-image" style="filter: grayscale(100%) contrast(85%);">
+                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/4b7903f5-84c6-4a4d-94be-e5a47a418777-profile_image-70x70.png" alt="chess24tr" />
+                  </div>
+                  <div class="profile-info">
+                    <p class="profile-username">chess24tr</p>
+                    <p class="profile-game-title">Chess</p>
+                  </div>
+                  <div class="profile-viewers">
+                    <div class="live-icon"></div>
+                    <div class="viewer-count">1.0B</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <small>Daha Fazla Göster</small>
+            <br />
+          </div>
+          <div class="stream-content">
+            <div class="games">
+              <h3>Seveceğinizi düşündüğümüz <span class="title-highlight">Kategoriler</span></h3>
+              <div class="games-carousel">
+                <div class="game">
+                  <div class="game-cover">
+                    <img src="https://static-cdn.jtvnw.net/ttv-boxart/516575-188x250.jpg" alt="VALORANT" />
+                  </div>
+                  <div class="game-info">
+                    <p class="game-title">VALORANT</p>
+                    <p class="game-viewership">94 B İzleyici</p>
+                  </div>
+                  <div class="game-categories">
+                    <span>Birinci Şahıs Nişancı</span>
+                  </div>
+                </div>
+                <div class="game">
+                  <div class="game-cover">
+                    <img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg" alt="League of Legends" />
+                  </div>
+                  <div class="game-info">
+                    <p class="game-title">League of Legends</p>
+                    <p class="game-viewership">72,8 B İzleyici</p>
+                  </div>
+                  <div class="game-categories">
+                    <span>Rol Yapma Oyunu</span>
+                  </div>
+                </div>
+                <div class="game">
+                  <div class="game-cover">
+                    <img src="https://static-cdn.jtvnw.net/ttv-boxart/32399_IGDB-188x250.jpg" alt="Counter-Strike: Global Offensive" />
+                  </div>
+                  <div class="game-info">
+                    <p class="game-title">Counter-Strike: Global Offensive</p>
+                    <p class="game-viewership">19,2 B İzleyici</p>
+                  </div>
+                  <div class="game-categories">
+                    <span>Birinci Şahıs Nişancı</span>
+                  </div>
+                </div>
+                <div class="game">
+                  <div class="game-cover">
+                    <img src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg" alt="Grand Theft Auto V" />
+                  </div>
+                  <div class="game-info">
+                    <p class="game-title">Grand Theft Auto V </p>
+                    <p class="game-viewership">50,6 B İzleyici</p>
+                  </div>
+                  <div class="game-categories">
+                    <span>Birinci Şahıs Nişancı</span>
+                  </div>
+                </div>
+                <div class="game">
+                  <div class="game-cover">
+                    <img src="https://static-cdn.jtvnw.net/ttv-boxart/513143-188x250.jpg" alt="Teamfight Tactics" />
+                  </div>
+                  <div class="game-info">
+                    <p class="game-title">Teamfight Tactics</p>
+                    <p class="game-viewership">16,2 B İzleyici</p>
+                  </div>
+                  <div class="game-categories">
+                    <span>Strateji Oyunu</span>
+                  </div>
+                </div>
+                <div class="game">
+                  <div class="game-cover">
+                    <img src="https://static-cdn.jtvnw.net/ttv-boxart/75467_IGDB-144x192.jpg" alt="Euro Truck Simulator 2" />
+                  </div>
+                  <div class="game-info">
+                    <p class="game-title">Euro Truck Simulator 2</p>
+                    <p class="game-viewership">2,3 B İzleyici</p>
+                  </div>
+                  <div class="game-categories">
+                    <span>Sürüş/Yarış Oyunu</span>
+                    <span>Simülasyon</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divider">
+              <div class="bar"></div>
+              <div class="show-more">
+                Daha Fazla Göster <i class="fa fa-chevron-down"></i>
+              </div>
+              <div class="bar"></div>
+            </div>
+            <div class="streams">
+              <h3>
+                Seveceğinizi düşündüğümüz<span class="title-highlight"> Canlı yayınlar</span> 
+              </h3>
+              <div class="stream-carousel">
+                <div class="stream">
+                  <div class="stream-thumbnail">
+                    <span class="live">LIVE</span>
+                    <img src="https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/19904d6aa0bbcd5befc2_levo_40980153464_1691761235//thumb/thumb0-214x120.jpg" alt="Levo" />
+                    <span class="viewers">8,8 B izleyici</span>
+                  </div>
+                  <div class="stream-info">
+                    <div class="stream-profile-avatar">
+                      <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/8919c1c6-d4f2-4e31-8238-c56270d9c13e-profile_image-50x50.png" alt="Levo" />
+                    </div>
+                    <div class="stream-text">
+                      <p class="stream-title">TURNUVA GSC 1. MAÇTAYIZ | !bynogame !itopya</p>
+                      <p class="stream-host">Levo</p>
+                      <p class="stream-game">Teamfight Tactics</p>
+                      <div class="game-categories">
+                        <span>KARIŞMAKYASAK</span>
+                        <span>Worldwide</span>
+                        <span>Turkish</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="stream">
+                  <div class="stream-thumbnail">
+                    <span class="live">LIVE</span>
+                    <img src="https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/2ea9c9e4598aa2186ad4_imorr_39843685957_1691761623//thumb/thumb0-214x120.jpg" alt="Overwatch" />
+                    <span class="viewers">9,2 B izleyici</span>
+                  </div>
+                  <div class="stream-info">
+                    <div class="stream-profile-avatar">
+                      <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/3b81bf4b-af7e-44c0-8141-fe4295e1d17c-profile_image-50x50.png" alt="Emongg" />
+                    </div>
+                    <div class="stream-text">
+                      <p class="stream-title">Eternal Fire vs Monte 🔹Thunderpick World Championship – EU Series 1</p>
+                      <p class="stream-host">imorr</p>
+                      <p class="stream-game">Counter-Strike: Global Offensive</p>
+                      <div class="game-categories">
+                        <span>Turkish</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="stream">
+                  <div class="stream-thumbnail">
+                    <span class="live">LIVE</span>
+                    <img src="https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/f3a6fbb87cb068b9f316_rootthegamer_40980153352_1691761233//thumb/thumb0-214x120.jpg" alt="rootthegamer" />
+                    <span class="viewers">3,2 B izleyici</span>
+                  </div>
+                  <div class="stream-info">
+                    <div class="stream-profile-avatar">
+                      <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/fd13408a-ae9b-4437-ab62-87ff5b8eae09-profile_image-50x50.png" alt="rootthegamer" />
+                    </div>
+                    <div class="stream-text">
+                      <p class="stream-title">🔴 CANLI: ETERNAL FIRE 🆚 MONTE | Bo3 | Thunderpick Wc 2023 EU Series 1 | !clan</p>
+                      <p class="stream-host">rootthegamer</p>
+                      <p class="stream-game">Counter-Strike: Global Offensive</p>
+                      <div class="game-categories">
+                        <span>root</span>
+                        <span>valorant</span>
+                        <span>watchparty</span>
+                        <span>caster</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divider">
+              <div class="bar"></div>
+              <div class="show-more">
+                Daha Fazla Göster <i class="fa fa-chevron-down"></i>
+              </div>
+              <div class="bar"></div>
+            </div>
+            <div class="videos">
+              <h3>
+                <span class="title-highlight">Onaylı Bağış Yayınları</span>
+              </h3>
+              <div class="video-carousel">
+                <div class="video">
+                  <div class="video-thumbnail">
+                    <img src="https://static-cdn.jtvnw.net/previews-ttv/live_user_garmoth_com-440x248.jpg" alt="Garmoth_com" />
+                    <span class="viewers">34:30</span>
+                  </div>
+                  <div class="video-info">
+                    <div class="video-profile-avatar">
+                      <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/d5e417a9-7fd2-47d4-b2c3-da45f97c1821-profile_image-50x50.png" alt="garmothm_com" />
+                    </div>
+                    <div class="video-text">
+                      <p class="video-title">[garmoth.com] Black Desert Radio </p>
+                      <p class="video-host">garmoth_com</p>
+                      <p class="video-game">Black Desert</p>
+                      <div class="game-categories">
+                        <span>Radio</span>
+                        <span>English</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="video">
+                  <div class="video-thumbnail">
+                    <div class="hover-accent left"></div>
+                    <img src="https://static-cdn.jtvnw.net/previews-ttv/live_user_veliainn-440x248.jpg" alt="Velialnn" />
+                    <span class="viewers">2:12:43</span>
+                  </div>
+                  <div class="video-info">
+                    <div class="video-profile-avatar">
+                      <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/6eadc3b0-61dc-4d11-8e14-924bbfa35664-profile_image-50x50.png" alt="velialnn" />
+                    </div>
+                    <div class="video-text">
+                      <p class="video-title">[nwdb.info] New World Radio </p>
+                      <p class="video-host">Velialnn</p>
+                      <p class="video-game">New World</p>
+                      <div class="game-categories">
+                        <span>Charity</span>
+                        <span>English</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="video">
+                  <div class="video-thumbnail">
+                    <img id="current" src="https://static-cdn.jtvnw.net/previews-ttv/live_user_deemoney_tv-440x248.jpg" alt="deemoney" />
+                    <span class="viewers">34:21</span>
+                  </div>
+                  <div class="video-info">
+                    <div class="video-profile-avatar">
+                      <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/0bf2e74a-b70e-4437-b509-a2a2663b986a-profile_image-50x50.png" alt="deemoney" />
+                    </div>
+                    <div class="video-text">
+                      <p class="video-title">Keeping The Streets Clean !! | Grizzley World Rp WL</p>
+                      <p class="video-host">deemoney_tv</p>
+                      <p class="video-game">Grand Theft Auto V</p>
+                      <div class="game-categories">
+                        <span>WRP</span>
+                        <span>Rp</span>
+                        <span>Comedy</span>
+                        <span>English</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+    
+</html>
